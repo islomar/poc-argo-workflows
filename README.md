@@ -32,6 +32,13 @@ Playground for learning about Argo Workflows
 - `argo template create [argo-template-yaml]`
 - `argo submit [argo-yaml]`
 
+## Argo REST API
+- https://argoproj.github.io/argo-workflows/rest-examples/
+- https://raw.githubusercontent.com/argoproj/argo-workflows/master/api/openapi-spec/swagger.json
+- https://docs.coreweave.com/cloud-tools/argo/use-the-argo-workflows-rest-api
+- [Get an access token if needed](https://argoproj.github.io/argo-workflows/access-token/)
+- `curl https://localhost:2746/api/v1/workflows/argo -H "Authorization: $ARGO_TOKEN"`
+
 ## Testing
 - https://github.com/argoproj/argo-workflows/tree/master/manifests
 

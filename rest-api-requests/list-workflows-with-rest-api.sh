@@ -1,0 +1,1 @@
+curl https://localhost:2746/api/v1/workflows/argo --header "Content-Type: application/json" --insecure | jq

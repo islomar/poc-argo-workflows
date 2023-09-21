@@ -1,0 +1,8 @@
+PUT http://localhost:2746/api/v1/workflows/argo/suspend-template-v4p87[1].approve/resume
+Content-Type: application/json
+
+{
+  "name": "suspend-template-v4p87[1].approve",
+  "namespace": "argo",
+  "nodeFieldSelector": "suspend-template-v4p87[1].approve"
+}

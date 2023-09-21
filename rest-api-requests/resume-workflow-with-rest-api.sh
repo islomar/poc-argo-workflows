@@ -1,0 +1,1 @@
+curl --request PUT https://localhost:2746/api/v1/workflows/argo/suspend-template-v4p87/resume --header "Content-Type: application/json" --insecure | jq

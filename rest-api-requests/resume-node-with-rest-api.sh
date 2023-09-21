@@ -1,0 +1,1 @@
+curl --request PUT https://localhost:2746/api/v1/workflows/argo/suspend-template-575kz/resume --header "Content-Type: application/json" -d '{"nodeFieldSelector":"displayName=approve"}' --insecure | jq
