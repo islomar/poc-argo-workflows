@@ -38,6 +38,11 @@ Playground for learning about Argo Workflows
 - https://docs.coreweave.com/cloud-tools/argo/use-the-argo-workflows-rest-api
 - [Get an access token if needed](https://argoproj.github.io/argo-workflows/access-token/)
 - `curl https://localhost:2746/api/v1/workflows/argo -H "Authorization: $ARGO_TOKEN"`
+- Update output parameters for suspended node:
+    - https://argoproj.github.io/argo-workflows/cli/argo_node/
+    - https://github.com/argoproj/argo-workflows/blob/master/workflow/util/util.go#L552
+    - `"outputParameters":"{\"approve-param\":\"xx\"}"`
+- https://argoproj.github.io/argo-workflows/intermediate-inputs/    
 
 ## Testing
 - https://github.com/argoproj/argo-workflows/tree/master/manifests

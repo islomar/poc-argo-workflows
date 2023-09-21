@@ -1,1 +1,1 @@
-curl --request PUT https://localhost:2746/api/v1/workflows/argo/suspend-template-q2fgk/set --header "Content-Type: application/json" -d '{"message":"This is valid!", "nodeFieldSelector":"displayName=approve"}' --insecure | jq
+curl --request PUT https://localhost:2746/api/v1/workflows/argo/suspend-template-j4txg/set --header "Content-Type: application/json" -d '{"message":"This is valid v3!", "nodeFieldSelector":"displayName=approve", "outputParameters":"{\"approve-param\":\"valid\"}"}' --insecure | jq
